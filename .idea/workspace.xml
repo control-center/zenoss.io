@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zenoss.io.iws" />
@@ -29,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.38964993" vertical-offset="0" max-vertical-offset="657">
+            <state line="16" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="-10.24" vertical-offset="0" max-vertical-offset="448">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="57" selection-start="1875" selection-end="1875" vertical-scroll-proportion="-10.88" vertical-offset="320" max-vertical-offset="1184">
+            <state line="37" column="57" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.43835616" vertical-offset="320" max-vertical-offset="1184">
               <folding />
             </state>
           </provider>
@@ -317,7 +314,11 @@
       <created>1407291093139</created>
       <updated>1407291093139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some filler text and stuff">
+      <created>1407291718959</created>
+      <updated>1407291718959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -373,7 +374,8 @@
     </option>
     <MESSAGE value="New Jekyll Template" />
     <MESSAGE value="new everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="new everything" />
+    <MESSAGE value="some filler text and stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="some filler text and stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -431,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="57" selection-start="1875" selection-end="1875" vertical-scroll-proportion="-10.88" vertical-offset="320" max-vertical-offset="1184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="272">
@@ -464,7 +459,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.38964993" vertical-offset="0" max-vertical-offset="657">
+        <state line="16" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="-10.24" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="57" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.43835616" vertical-offset="320" max-vertical-offset="1184">
           <folding />
         </state>
       </provider>
