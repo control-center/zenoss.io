@@ -2,25 +2,212 @@
 layout: default
 ---
 <div class="content">
-<header>
-    <div class="unit-head">
-        <div class="unit-inner unit-head-inner">
-            <h1 class="h2 entry-title">Getting Started</h1>
-        </div><!-- unit-inner -->
-    </div><!-- unit-head -->
-</header>
+    <header>
+        <div class="unit-head">
+            <div class="unit-inner unit-head-inner">
+                <h1 class="h2 entry-title">Getting Started</h1>
+            </div>
+            <!-- unit-inner -->
+        </div>
+        <!-- unit-head -->
+    </header>
 
-<div class="bd">
-<div class="entry-content">
-<head></title></head><body class="c13"><h2 class="c3 c11"><a name="h.iz4tqsugqwie"></a><span></span></h2><h3 class="c3 c11"><a name="h.5usgtrkxbqhs"></a><span>Installation</span></h3><p class="c1"><span></span></p><p class="c3"><span>1. You&rsquo;ll need an Ubuntu 14.04 host to perform the installation, other Linux distributions should work as well if they can run Docker v1.0+. The first step after OS installation is installing docker. The quickest way to install docker is the following:</span></p><p class="c9 c3"><span class="c6 c2">#</span><span class="c2 c6">wget -O - http://get.docker.io | sudo su</span></p><p class="c3"><span>The install script will add the docker repository to apt and install docker. </span></p><p class="c1"><span></span></p><p class="c3"><span>2. After it is installed, you must either run docker commands as root or add your user to the &ldquo;docker&rdquo; group. You can perform this task using:</span></p><p class="c1"><span></span></p><p class="c3 c14"><span class="c2">#sudo usermod -aG docker $USER</span></p><p class="c1"><span></span></p><p class="c3"><span>&hellip; with $USER being the username you want to add to the docker group. You&rsquo;ll need to log out all sessions of the user before the change will take effect. </span></p><p class="c1"><span></span></p><p class="c3"><span>3. Next, you will need to install serviced.</span></p><p class="c1"><span></span></p><p class="c3"><span class="c5">Note:</span><span>&nbsp;Please make sure you have set the correct hostname/IP in the host file. Control Center will not function correctly if the hostname is mapped to the loopback adapter IP: 127.0.0.1</span></p><p class="c1"><span></span></p><p class="c9 c3"><span class="c7 c6">#sudo sh -c </span><span class="c7 c8">&#39;echo &quot;deb [ arch=amd64 ] http://get.zenoss.io/apt/trusty universe multiverse&quot; \</span><span class="c6 c7"><br></span><span class="c8 c7">&nbsp; &gt; /etc/apt/sources.list.d/zenoss.list&#39;</span></p><p class="c9 c3"><span class="c7 c6">#sudo apt-get update</span></p><p class="c3 c9"><span class="c7 c6">#sudo apt-get install serviced</span></p><p class="c3"><span>Serviced should now be installed in /opt/serviced.</span><span>&nbsp;There may be an initial pause before serviced starts up as it loads its internal services images into the running docker instance.</span><span>&nbsp;Once that is complete you should see the Control Center serving up an AngularJS UI at </span><span class="c12">https://[HOSTIP]/</a></span><span>. </span></p><p class="c1"><span></span></p><p class="c3"><span>If you don&rsquo;t see serviced starting, start it via the following upstart command: </span></p><p class="c0"><span>sudo start serviced</span></p><p class="c1"><span></span></p><p class="c3"><span>4. You will need to log in using a user that is in the </span><span class="c4">wheel </span><span>or </span><span class="c4">sudoers</span><span>&nbsp;group. Authentication is performed using PAM; you may need to configure PAM appropriately if you use Kerberos or LDAP for authentication.</span></p><p class="c1"><span></span></p><p class="c3"><span>If in doubt about whether Control Center has started properly, check the log: </span></p><p class="c3"><span># tail /var/log/upstart/serviced.log </span></p><p class="c1"><span></span></p><p class="c3"><span>Also check if the host is listening on TCP 443:</span></p><p class="c3"><span># netstat -an | grep [:]443</span></p><h3 class="c3 c11"><a name="h.jxtz5jv6c7so"></a><span>Deploying Applications</span></h3><p class="c3"><span>Next, you will need to deploy an application. Applications are deployed from an application template definition.</span></p><p class="c1"><span></span></p><p class="c3"><span class="c5">Step 1 - Download application template</span></p><p class="c3"><span>We are going to deploy a simple Python webserver using Control Center.</span></p><p class="c1"><span></span></p><p class="c3"><span>#git clone https://gist.github.com/mmaloney/48f3a5b392d03b8e3f53 ~/apptemplate</span></p><p class="c1"><span></span></p><p class="c3"><span class="c5">Note:</span><span>&nbsp;If you don&rsquo;t have Git installed, you can grab the file directly from the url above via your browser. If you want to install, run: apt-get install git</span></p><p class="c1"><span></span></p><p class="c3"><span class="c5">Step 2 - Load application template</span></p><p class="c3"><span># templateid=$(serviced template add ~/apptemplate/webserver.json)</span></p><p class="c1"><span></span></p><p class="c3"><span class="c5">Step 3 - Add host</span></p><p class="c3"><span># serviced host add [HOSTIP]:4979 default</span></p><p class="c1"><span></span></p><p class="c3"><span>Alternatively, you can add the host through the UI: https://[HOSTIP]/#/hosts</span></p><p class="c3"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 473.50px; height: 132.79px;"><img alt="" src="images/image03.png" style="width: 473.50px; height: 132.79px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c3"><span class="c5">Step 4 - Deploy Application</span></p><p class="c3"><span>#serviced=$(serviced template deploy $templateid default dev)</span></p><p class="c1"><span></span></p><p class="c3"><span>Alternatively, you can deploy the application through the UI: https://[HOSTIP]/#/apps</span></p><p class="c1"><span class="c5"></span></p><p class="c3"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 394.50px; height: 136.56px;"><img alt="" src="images/image02.png" style="width: 394.50px; height: 136.56px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c3"><span class="c5">Note:</span><span>&nbsp;This may take a while since Docker will need to pull the target image from Docker Hub.</span></p><p class="c1"><span class="c5"></span></p><p class="c3"><span class="c5">Step 5 - Start Application</span></p><p class="c3"><span>#serviced service $serviced start</span></p><p class="c1"><span></span></p><p class="c3"><span>Alternatively, you can start the application through the UI: https://[HOSTIP]/#/apps</span></p><p class="c3"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 402.50px; height: 99.98px;"><img alt="" src="images/image00.png" style="width: 402.50px; height: 99.98px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c3"><span>Now you should be able to access the Python web server directly via http://[HOSTIP]:8000 </span></p><p class="c1"><span></span></p><p class="c3"><span>In addition, the web server configuration details are available in the UI including the VHost configuration.</span></p><p class="c1"><span></span></p><p class="c3"><span>Application logging is turned on by default and is available here: https://[HOSTIP]/#/logs</span></p><p class="c3"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 514.58px; height: 237.50px;"><img alt="" src="images/image01.png" style="width: 514.58px; height: 237.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c1"><span class="c5"></span></p><p class="c1"><span class="c5"></span></p><p class="c1"><span class="c5"></span></p><hr style="page-break-before:always;display:none;"><p class="c1"><span class="c5"></span></p></body></div><!-- entry-content -->
-</div><!-- bd -->
+    <div class="bd">
+        <div class="entry-content">
+            <head></title></head>
+            <body class="c13"><h2 class="c3 c11"><a name="h.iz4tqsugqwie"></a><span></span></h2>
 
-<footer class="unit-foot">
-    <div class="unit-inner unit-foot-inner">
-        <p class="gotop">
-            <a href="#page">Back to Top</a>
-        </p>
+            <h3 class="c3 c11"><a name="h.5usgtrkxbqhs"></a><span>Installation</span></h3>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>1. You&rsquo;ll need an Ubuntu 14.04 host to perform the installation, other Linux distributions should work as well if they can run Docker v1.0+. The first step after OS installation is installing docker. The quickest way to install docker is the following:</span>
+            </p>
+
+            <p class="c9 c3"><span class="c6 c2">#</span><span class="c2 c6">wget -O - http://get.docker.io | sudo su</span></p>
+
+            <p class="c3"><span>The install script will add the docker repository to apt and install docker. </span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>2. After it is installed, you must either run docker commands as root or add your user to the &ldquo;docker&rdquo;
+                group. You can perform this task using:</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3 c14"><span class="c2">#sudo usermod -aG docker $USER</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>&hellip; with $USER being the username you want to add to the docker group. You&rsquo;ll need to log out all sessions of the user before the change will take effect. </span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>3. Next, you will need to install serviced.</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span class="c5">Note:</span><span>&nbsp;Please make sure you have set the correct hostname/IP in the host file. Control Center will not function correctly if the hostname is mapped to the loopback adapter IP: 127.0.0.1</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c9 c3"><span class="c7 c6">#sudo sh -c </span><span class="c7 c8">&#39;echo &quot;deb [ arch=amd64 ] http://get.zenoss.io/apt/trusty universe multiverse&quot; \</span><span
+                    class="c6 c7"><br></span><span
+                    class="c8 c7">&nbsp; &gt; /etc/apt/sources.list.d/zenoss.list&#39;</span></p>
+
+            <p class="c9 c3"><span class="c7 c6">#sudo apt-get update</span></p>
+
+            <p class="c3 c9"><span class="c7 c6">#sudo apt-get install serviced</span></p>
+
+            <p class="c3"><span>Serviced should now be installed in /opt/serviced.</span><span>&nbsp;There may be an initial pause before serviced starts up as it loads its internal services images into the running docker instance.</span><span>&nbsp;Once that is complete you should see the Control Center serving up an AngularJS UI at </span><span
+                    class="c12">https://[HOSTIP]/</a></span><span>. </span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3">
+                <span>If you don&rsquo;t see serviced starting, start it via the following upstart command: </span></p>
+
+            <p class="c0"><span>sudo start serviced</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>4. You will need to log in using a user that is in the </span><span
+                    class="c4">wheel </span><span>or </span><span class="c4">sudoers</span><span>&nbsp;group. Authentication is performed using PAM; you may need to configure PAM appropriately if you use Kerberos or LDAP for authentication.</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>If in doubt about whether Control Center has started properly, check the log: </span>
+            </p>
+
+            <p class="c3"><span># tail /var/log/upstart/serviced.log </span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>Also check if the host is listening on TCP 443:</span></p>
+
+            <p class="c3"><span># netstat -an | grep [:]443</span></p>
+
+            <h3 class="c3 c11"><a name="h.jxtz5jv6c7so"></a><span>Deploying Applications</span></h3>
+
+            <p class="c3"><span>Next, you will need to deploy an application. Applications are deployed from an application template definition.</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span class="c5">Step 1 - Download application template</span></p>
+
+            <p class="c3"><span>We are going to deploy a simple Python webserver using Control Center.</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>#git clone https://gist.github.com/mmaloney/48f3a5b392d03b8e3f53 ~/apptemplate</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span class="c5">Note:</span><span>&nbsp;If you don&rsquo;t have Git installed, you can grab the file directly from the url above via your browser. If you want to install, run: apt-get install git</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span class="c5">Step 2 - Load application template</span></p>
+
+            <p class="c3"><span># templateid=$(serviced template add ~/apptemplate/webserver.json)</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span class="c5">Step 3 - Add host</span></p>
+
+            <p class="c3"><span># serviced host add [HOSTIP]:4979 default</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>Alternatively, you can add the host through the UI: https://[HOSTIP]/#/hosts</span></p>
+
+            <p class="c3"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 473.50px; height: 132.79px;"><img
+                    alt="" src="images/image03.png"
+                    style="width: 473.50px; height: 132.79px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                    title=""></span></p>
+
+            <p class="c3"><span class="c5">Step 4 - Deploy Application</span></p>
+
+            <p class="c3"><span>#serviced=$(serviced template deploy $templateid default dev)</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3">
+                <span>Alternatively, you can deploy the application through the UI: https://[HOSTIP]/#/apps</span></p>
+
+            <p class="c1"><span class="c5"></span></p>
+
+            <p class="c3"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 394.50px; height: 136.56px;"><img
+                    alt="" src="images/image02.png"
+                    style="width: 394.50px; height: 136.56px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                    title=""></span></p>
+
+            <p class="c3"><span class="c5">Note:</span><span>&nbsp;This may take a while since Docker will need to pull the target image from Docker Hub.</span>
+            </p>
+
+            <p class="c1"><span class="c5"></span></p>
+
+            <p class="c3"><span class="c5">Step 5 - Start Application</span></p>
+
+            <p class="c3"><span>#serviced service $serviced start</span></p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3">
+                <span>Alternatively, you can start the application through the UI: https://[HOSTIP]/#/apps</span></p>
+
+            <p class="c3"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 402.50px; height: 99.98px;"><img
+                    alt="" src="images/image00.png"
+                    style="width: 402.50px; height: 99.98px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                    title=""></span></p>
+
+            <p class="c3">
+                <span>Now you should be able to access the Python web server directly via http://[HOSTIP]:8000 </span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>In addition, the web server configuration details are available in the UI including the VHost configuration.</span>
+            </p>
+
+            <p class="c1"><span></span></p>
+
+            <p class="c3"><span>Application logging is turned on by default and is available here: https://[HOSTIP]/#/logs</span>
+            </p>
+
+            <p class="c3"><span
+                    style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 514.58px; height: 237.50px;"><img
+                    alt="" src="images/image01.png"
+                    style="width: 514.58px; height: 237.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                    title=""></span></p>
+
+            <p class="c1"><span class="c5"></span></p>
+
+            <p class="c1"><span class="c5"></span></p>
+
+            <p class="c1"><span class="c5"></span></p>
+            <hr style="page-break-before:always;display:none;">
+            <p class="c1"><span class="c5"></span></p></body>
+        </div>
+        <!-- entry-content -->
     </div>
-</footer>
+    <!-- bd -->
+
+    <footer class="unit-foot">
+        <div class="unit-inner unit-foot-inner">
+            <p class="gotop">
+                <a href="#page">Back to Top</a>
+            </p>
+        </div>
+    </footer>
 
 </div>
