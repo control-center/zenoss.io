@@ -1,7 +1,7 @@
 name: Zenoss Control Center
 author: Zenoss
 markdown: redcarpet
-pygments: true
+highlighter: true
 baseurl:
 description: Zenoss Control Center
 github: http://www.github.com/zenoss
