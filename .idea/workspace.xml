@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="">
+    <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="update content">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/flow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/ss.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zenoss.io.iws" />
@@ -14,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -25,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="143" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-24.96" vertical-offset="0" max-vertical-offset="1008">
+            <state line="22" column="84" selection-start="910" selection-end="910" vertical-scroll-proportion="0.43735763" vertical-offset="224" max-vertical-offset="1536">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="66" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.23188406" vertical-offset="448" max-vertical-offset="1200">
+            <state line="41" column="12" selection-start="2172" selection-end="2172" vertical-scroll-proportion="-26.24" vertical-offset="0" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -76,10 +78,10 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/hc.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/gettingstarted.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -300,7 +302,19 @@
       <created>1407380467286</created>
       <updated>1407380467289</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update links">
+      <created>1407380992804</created>
+      <updated>1407380992804</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update content">
+      <created>1407381785110</created>
+      <updated>1407381785110</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update content">
+      <created>1407381831710</created>
+      <updated>1407381831710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -328,7 +342,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -336,9 +350,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24639769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3465418" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26875854" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287858" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26875854" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26875854" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -362,7 +376,8 @@
     <MESSAGE value="added contributing content" />
     <MESSAGE value="update config" />
     <MESSAGE value="update links" />
-    <option name="LAST_COMMIT_MESSAGE" value="update links" />
+    <MESSAGE value="update content" />
+    <option name="LAST_COMMIT_MESSAGE" value="update content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -437,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="143" selection-start="1732" selection-end="1732" vertical-scroll-proportion="-24.96" vertical-offset="0" max-vertical-offset="1008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gettingstarted.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="-11.52" vertical-offset="176" max-vertical-offset="4240">
@@ -463,7 +471,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="66" selection-start="1681" selection-end="1681" vertical-scroll-proportion="0.23188406" vertical-offset="448" max-vertical-offset="1200">
+        <state line="41" column="12" selection-start="2172" selection-end="2172" vertical-scroll-proportion="-26.24" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="84" selection-start="910" selection-end="910" vertical-scroll-proportion="0.43735763" vertical-offset="224" max-vertical-offset="1536">
           <folding />
         </state>
       </provider>
