@@ -21,16 +21,16 @@ layout: default
 
 
 
-        <p><span>1. You&rsquo;ll need an Ubuntu 14.04 host to perform the installation, other Linux distributions should work as well if they can run Docker v1.0+. The first step after OS installation is installing docker. The quickest way to install docker is the following:</span>
+        <p><span>1. You&rsquo;ll need an Ubuntu 14.04 host to perform the installation. (Other Linux distributions should work as well if they can run Docker v1.0+.) The first step after OS installation is installing Docker. The quickest way to install Docker is the following:</span>
         </p>
 
         <pre class="language-"><code># wget -O - http://get.docker.io | sudo su</code></pre>
 
-        <p><span>The install script will add the docker repository to apt and install docker. </span></p>
+        <p><span>The install script will add the Docker repository to apt and install Docker. </span></p>
 
 
 
-        <p><span>2. After it is installed, you must either run docker commands as root or add your user to the &ldquo;docker&rdquo;
+        <p><span>2. After it is installed, you must either run Docker commands as root or add your user to the &ldquo;docker&rdquo;
             group. You can perform this task using:</span></p>
 
 
@@ -39,7 +39,7 @@ layout: default
 
 
 
-        <p><span>&hellip; with $USER being the username you want to add to the docker group. You&rsquo;ll need to log out all sessions of the user before the change will take effect. </span>
+        <p><span>&hellip; with $USER being the username you want to add to the &ldquo;docker&rdquo; group. You&rsquo;ll need to log out all sessions of the user before the change will take effect. </span>
         </p>
 
 
@@ -63,7 +63,7 @@ layout: default
 
         <pre class="language-"><code># sudo apt-get install serviced</code></pre>
 
-        <p><span>Serviced should now be installed in /opt/serviced.</span><span>&nbsp;There may be an initial pause before serviced starts up as it loads its internal services images into the running docker instance.</span><span>&nbsp;Once that is complete you should see the Control Center serving up an AngularJS UI at </span><span
+        <p><span>Serviced should now be installed in /opt/serviced.</span><span>&nbsp;There may be an initial pause before serviced starts up as it loads its internal services images into the running Docker instance.</span><span>&nbsp;Once that is complete you should see the Control Center serving up an AngularJS UI at </span><span
                 class="c12">https://[HOSTIP]/</a></span><span>. </span></p>
 
 
@@ -109,7 +109,7 @@ layout: default
 
 
 
-        <p><span>Note:</span><span>&nbsp;If you don&rsquo;t have Git installed, you can grab the file directly from the url above via your browser. If you want to install, run: apt-get install git</span>
+        <p><span>Note:</span><span>&nbsp;If you don&rsquo;t have Git installed, you can grab the file directly from the URL above via your browser. If you want to install, run: apt-get install git</span>
         </p>
 
 
@@ -151,7 +151,7 @@ layout: default
                 style="width: 394.50px; height: 136.56px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
                 title=""></span></p>
 
-        <p><span>Note:</span><span>&nbsp;This may take a while since Docker will need to pull the target image from Docker Hub.</span>
+        <p><span>Note:</span><span>&nbsp;This may take a while, since Docker needs to pull the target image from Docker Hub.</span>
         </p>
 
 
@@ -177,7 +177,7 @@ layout: default
 
 
 
-        <p><span>In addition, the web server configuration details are available in the UI including the VHost configuration.</span>
+        <p><span>In addition, the web server configuration details are available in the UI, including the VHost configuration.</span>
         </p>
 
 
