@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-us" lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2005"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2005"/>
+<meta name="DC.Type" content="reference"/>
+<meta name="DC.Title" content="Services table"/>
+<meta name="DC.Relation" scheme="URI" content="../topics/xface-app-detail.html"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="referenceid"/>
+<link rel="stylesheet" type="text/css" href="../commonltr.css"/>
+<title>Services table</title>
+</head>
+<body id="referenceid">
+
+
+  <h1 class="title topictitle1"><span class="ph uicontrol">Services</span> table</h1>
+
+  <div class="body refbody">
+    <div class="section">
+      <img class="image" src="../images/xf-app-detail-services.png" height="167" width="579"/>
+      <div class="note note"><span class="notetitle">Note:</span> The preceding example is truncated, to save space.</div>
+
+      <p class="p">This table lists all of the services associated with an application.</p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+          
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" width="21.052631578947366%" id="d11412e38">Column</th>
+
+              <th class="entry" colspan="2" valign="top" id="d11412e41">Contents</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" valign="top" width="21.052631578947366%" headers="d11412e38 "><span class="ph uicontrol">Application</span></td>
+
+              <td class="entry" colspan="2" valign="top" headers="d11412e41 ">The service name and its relationship to the preceding service.
+                <ul class="ul">
+                  <li class="li">If a service is not indented, it is a peer of the preceding service.</li>
+
+                  <li class="li">If a service is indented, it is a subservice of the preceding service.</li>
+
+                </ul>
+
+                Each service name is a link to the <a class="xref" href="xface-svc-details.html">details page of the service</a>.
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" rowspan="4" valign="top" width="21.052631578947366%" headers="d11412e38 "><span class="ph uicontrol">Status</span></td>
+
+              <td class="entry" colspan="2" valign="top" headers="d11412e41 ">The current state of the service, represented by an icon.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="5.263157894736842%" headers="d11412e41 "><img class="image" src="../images/xf-svc-check.png"/></td>
+
+              <td class="entry" valign="top" width="73.68421052631578%" headers="d11412e41 ">The service is running.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="5.263157894736842%" headers="d11412e41 "><img class="image" src="../images/xf-svc-question.png"/></td>
+
+              <td class="entry" valign="top" width="73.68421052631578%" headers="d11412e41 ">The state of the service is unknown.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="5.263157894736842%" headers="d11412e41 "><img class="image" src="../images/xf-svc-bang.png"/></td>
+
+              <td class="entry" valign="top" width="73.68421052631578%" headers="d11412e41 ">The service is not running.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="21.052631578947366%" headers="d11412e38 "><span class="ph uicontrol">Host</span></td>
+
+              <td class="entry" colspan="2" valign="top" headers="d11412e41 ">The name of the resource pool host on which an
+                instance of the service is running. 
+                <ul class="ul">
+                  <li class="li">If more than one instance is running, the number
+                    is noted parenthetically.</li>
+
+                  <li class="li">The host name is a link to the <a class="xref" href="xface-hosts-details.html">Hosts details page</a>.</li>
+
+                </ul>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="21.052631578947366%" headers="d11412e38 "><span class="ph uicontrol">Startup Command</span></td>
+
+              <td class="entry" colspan="2" valign="top" headers="d11412e41 ">The <span class="keyword cmdname">bash</span> command that starts an
+                instance of the service in a container.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" width="21.052631578947366%" headers="d11412e38 "><span class="ph uicontrol">Actions</span></td>
+
+              <td class="entry" colspan="2" valign="top" headers="d11412e41 ">The controls for starting and stopping a service.
+              <ul class="ul">
+                <li class="li">The <span class="ph uicontrol">Stop</span> control stops all instances
+                  of the service, and discards the containers in which the instances 
+                  were running.</li>
+
+                <li class="li">The <span class="ph uicontrol">Start</span> control creates new containers 
+                for the required number of instances, and use the startup command
+                to start instances in the containers.</li>
+
+              </ul>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+  </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../topics/xface-app-detail.html">Application details page</a></div>
+</div>
+</div>
+
+</body>
+</html>
