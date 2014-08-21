@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/links.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hc.css" afterPath="$PROJECT_DIR$/css/hc.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-health.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-health.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-logconfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-logconfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-metric.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-metric.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-object.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-object.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-task.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-task.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-template.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-volume.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-volume.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-host.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-host.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-pool.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-pool.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-vhost.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-vhost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-config.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-config.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-control.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-control.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-services.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-edit-config.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-edit-config.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-assign-ip.html" afterPath="$PROJECT_DIR$/docs/topics/xface-assign-ip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-hosts-details.html" afterPath="$PROJECT_DIR$/docs/topics/xface-hosts-details.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-hosts.html" afterPath="$PROJECT_DIR$/docs/topics/xface-hosts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-initial.html" afterPath="$PROJECT_DIR$/docs/topics/xface-initial.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-internal-svcs.html" afterPath="$PROJECT_DIR$/docs/topics/xface-internal-svcs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-logs.html" afterPath="$PROJECT_DIR$/docs/topics/xface-logs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-pools.html" afterPath="$PROJECT_DIR$/docs/topics/xface-pools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface.html" afterPath="$PROJECT_DIR$/docs/topics/xface.html" />
     </list>
     <ignored path="zenoss.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +47,7 @@
       <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="59" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.8031291" vertical-offset="248" max-vertical-offset="1232">
+            <state line="53" column="25" selection-start="2458" selection-end="2458" vertical-scroll-proportion="1.7520661" vertical-offset="0" max-vertical-offset="1232">
               <folding />
             </state>
           </provider>
@@ -178,10 +145,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1473" />
     <option name="y" value="22" />
     <option name="width" value="1681" />
-    <option name="height" value="1108" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -466,7 +432,11 @@
       <created>1408629980577</created>
       <updated>1408629980577</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="New Documentation Pages">
+      <created>1408631061341</created>
+      <updated>1408631061341</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -490,7 +460,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1473" y="22" width="1681" height="1108" extended-state="0" />
+    <frame x="0" y="22" width="1681" height="825" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -498,7 +468,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.49969494" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19291338" sideWeight="0.50030506" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26739427" sideWeight="0.50030506" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3465418" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19234544" sideWeight="0.49969494" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -532,7 +502,8 @@
     <MESSAGE value="update content" />
     <MESSAGE value="added some styles for code" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="New Documentation Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Documentation Pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -891,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="59" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.8031291" vertical-offset="248" max-vertical-offset="1232">
+        <state line="53" column="25" selection-start="2458" selection-end="2458" vertical-scroll-proportion="1.7520661" vertical-offset="0" max-vertical-offset="1232">
           <folding />
         </state>
       </provider>
