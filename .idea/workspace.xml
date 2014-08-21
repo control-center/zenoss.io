@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="update content">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/prism.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/prism.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gettingstarted.html" afterPath="$PROJECT_DIR$/gettingstarted.html" />
+    <list default="true" id="d3f6e984-903b-487c-be11-6d6b8c855a4a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/links.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hc.css" afterPath="$PROJECT_DIR$/css/hc.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-health.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-health.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-logconfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-logconfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-metric.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-metric.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-object.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-object.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-task.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-task.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-template.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/svcdef-volume.html" afterPath="$PROJECT_DIR$/docs/topics/svcdef-volume.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-host.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-host.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-pool.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-pool.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-add-vhost.html" afterPath="$PROJECT_DIR$/docs/topics/xface-add-vhost.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-config.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-config.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-control.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-services.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-detail.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app-edit-config.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app-edit-config.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-app.html" afterPath="$PROJECT_DIR$/docs/topics/xface-app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-assign-ip.html" afterPath="$PROJECT_DIR$/docs/topics/xface-assign-ip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-hosts-details.html" afterPath="$PROJECT_DIR$/docs/topics/xface-hosts-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-hosts.html" afterPath="$PROJECT_DIR$/docs/topics/xface-hosts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-initial.html" afterPath="$PROJECT_DIR$/docs/topics/xface-initial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-internal-svcs.html" afterPath="$PROJECT_DIR$/docs/topics/xface-internal-svcs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-logs.html" afterPath="$PROJECT_DIR$/docs/topics/xface-logs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface-pools.html" afterPath="$PROJECT_DIR$/docs/topics/xface-pools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/topics/xface.html" afterPath="$PROJECT_DIR$/docs/topics/xface.html" />
     </list>
     <ignored path="zenoss.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,63 +62,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="-1.88" vertical-offset="625" max-vertical-offset="1424">
+            <state line="5" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="-3.2" vertical-offset="0" max-vertical-offset="1344">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gettingstarted.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstarted.html">
+      <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="116" selection-start="4479" selection-end="4479" vertical-scroll-proportion="-1.4705882" vertical-offset="1829" max-vertical-offset="3808">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prism.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/prism.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3218" max-vertical-offset="3728">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="224">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prism.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/prism.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="521" selection-start="7595" selection-end="7599" vertical-scroll-proportion="0.33264464" vertical-offset="895" max-vertical-offset="1664">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="1232">
+            <state line="54" column="59" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.8031291" vertical-offset="248" max-vertical-offset="1232">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="58" selection-start="518" selection-end="518" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="288">
+            <state line="54" column="76" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.64" vertical-offset="880" max-vertical-offset="1696">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="hc.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="23" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="12160">
+            <state line="232" column="0" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="3309" max-vertical-offset="12160">
               <folding />
             </state>
           </provider>
@@ -122,26 +122,66 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_site/css/hc.css" />
-        <option value="$PROJECT_DIR$/_posts/2014-08-04-firstpost.markdown" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/hc.css" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/css/prism.css" />
         <option value="$PROJECT_DIR$/gettingstarted.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-configFile.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-datapoint.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-endpoint.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-bytesToMB.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-child.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-each.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-parent.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-percentScale.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-go-template-plus.html" />
+        <option value="$PROJECT_DIR$/docs/topics/config-defaults.html" />
+        <option value="$PROJECT_DIR$/docs/topics/config.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-health.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-logconfig.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-metric.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-object.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-task.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-template.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html" />
+        <option value="$PROJECT_DIR$/docs/topics/svcdef-volume.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-add-host.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-add-pool.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-add-vhost.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-config.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-control.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-services.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-app-edit-config.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-assign-ip.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-hosts.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-hosts-details.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-initial.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-internal-svcs.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-logs.html" />
+        <option value="$PROJECT_DIR$/docs/topics/xface-pools.html" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/css/hc.css" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1712" />
-    <option name="y" value="177" />
-    <option name="width" value="1430" />
-    <option name="height" value="825" />
+    <option name="x" value="1473" />
+    <option name="y" value="22" />
+    <option name="width" value="1681" />
+    <option name="height" value="1108" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -169,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,6 +252,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zenoss.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zenoss.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zenoss.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zenoss.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,21 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zenoss.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zenoss.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="_site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,7 +328,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,6 +339,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -383,7 +438,35 @@
       <created>1407416921287</created>
       <updated>1407416921287</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added some styles for code">
+      <created>1407428233142</created>
+      <updated>1407428233142</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix">
+      <created>1407438664536</created>
+      <updated>1407438664536</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix">
+      <created>1407444550458</created>
+      <updated>1407444550459</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix">
+      <created>1407508268130</created>
+      <updated>1407508268130</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix">
+      <created>1407511531091</created>
+      <updated>1407511531091</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix">
+      <created>1407511775593</created>
+      <updated>1407511775593</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix">
+      <created>1408629980577</created>
+      <updated>1408629980577</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -407,21 +490,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1712" y="177" width="1430" height="825" extended-state="0" />
+    <frame x="1473" y="22" width="1681" height="1108" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25720462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.49969494" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19291338" sideWeight="0.50030506" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3465418" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26802722" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26802722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19234544" sideWeight="0.49969494" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23550946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3292517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -446,186 +530,30 @@
     <MESSAGE value="update config" />
     <MESSAGE value="update links" />
     <MESSAGE value="update content" />
-    <option name="LAST_COMMIT_MESSAGE" value="update content" />
+    <MESSAGE value="added some styles for code" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gettingstarted.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="970" selection-end="1035" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="3504">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="46" selection-end="278" vertical-scroll-proportion="0.0798005" vertical-offset="0" max-vertical-offset="3616" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-configFile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1200">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1568">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hc.css">
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="12160">
+        <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="448">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="84" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1376">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="12160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="84" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1376">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0" vertical-offset="656" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="12160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/css/hc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="15" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.40381792" vertical-offset="1181" max-vertical-offset="12160" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-08-04-firstpost.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="-13.62963" vertical-offset="0" max-vertical-offset="464">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.7777778" vertical-offset="0" max-vertical-offset="144">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/hc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="23" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="1389" max-vertical-offset="12160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="74" selection-end="74" vertical-scroll-proportion="0.087272726" vertical-offset="0" max-vertical-offset="550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="-1.88" vertical-offset="625" max-vertical-offset="1424">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="518" selection-end="518" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14064">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="1232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="116" selection-start="4479" selection-end="4479" vertical-scroll-proportion="-1.4705882" vertical-offset="1829" max-vertical-offset="3808">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#18;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#21;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#25;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#p#29;n#body#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,12 +564,335 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/prism.js">
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-datapoint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="521" selection-start="7595" selection-end="7599" vertical-scroll-proportion="0.33264464" vertical-offset="895" max-vertical-offset="1664">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="3072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/config-defaults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="0" selection-start="11755" selection-end="11755" vertical-scroll-proportion="-19.24" vertical-offset="4207" max-vertical-offset="4800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="370" selection-end="370" vertical-scroll-proportion="-14.72" vertical-offset="0" max-vertical-offset="464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-endpoint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.043010753" vertical-offset="0" max-vertical-offset="2608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.043010753" vertical-offset="0" max-vertical-offset="768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-bytesToMB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.04172099" vertical-offset="0" max-vertical-offset="767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-child.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-each.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-percentScale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-go-template-plus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-graphConfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="3248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-health.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-logconfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-metric.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-metricConfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="8080">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1408630156000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1408630156000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-task.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-thresholdConfig.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="2464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/svcdef-volume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-add-host.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-add-pool.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-add-vhost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-ip-assign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="2208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-edit-config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-assign-ip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="1456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-hosts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-hosts-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-initial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-internal-svcs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-logs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.28" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-pools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-21.76" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/topics/xface-app-detail-vhosts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.04172099" vertical-offset="0" max-vertical-offset="896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="76" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.64" vertical-offset="880" max-vertical-offset="1696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="0" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0" vertical-offset="3309" max-vertical-offset="12160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="-3.2" vertical-offset="0" max-vertical-offset="1344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="59" selection-start="2659" selection-end="2659" vertical-scroll-proportion="0.8031291" vertical-offset="248" max-vertical-offset="1232">
+          <folding />
         </state>
       </provider>
     </entry>
