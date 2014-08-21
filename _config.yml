@@ -2,7 +2,6 @@ name: Zenoss Control Center
 author: Zenoss
 markdown: redcarpet
 highlighter: true
-baseurl:
 description: Zenoss Control Center
 github: http://www.github.com/zenoss
 #twitter: http://www.twitter.com/zenoss
